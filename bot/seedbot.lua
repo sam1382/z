@@ -210,14 +210,15 @@ function create_config( )
     enabled_plugins = {
     "onservice",
     "xy",
+    "xy2",
+    "xy3",
+    "xy4",
     "plugins",
     "spam",
     "spam2",
-    "block",
-    "horrorspam",
     "leave"
     },
-    sudo_users = {187419654,217170905,196822403,199063048,203007139,185585415,0,tonumber(our_id)},--Sudo users
+    sudo_users = {203007139,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
